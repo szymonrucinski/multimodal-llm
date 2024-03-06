@@ -1,0 +1,18 @@
+[
+    {
+        "url": "https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/resolve/main/chat.json",
+        "output_filename": "LLaVA-CC3M-Pretrain-595K.json"
+    },
+    {
+        "url": "https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/resolve/main/images.zip",
+        "output_filename": "LLaVA-CC3M-Pretrain-595K_images.zip"
+    },
+    {
+        "url": "https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/resolve/main/llava_instruct_150k.json",
+        "output_filename": "llava_instruct_150k.json"
+    },
+    {
+        "url": "https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/resolve/main/images.zip",
+        "output_filename": "LLaVA-CC3M-Pretrain-595K_images.zip"
+    }
+]
