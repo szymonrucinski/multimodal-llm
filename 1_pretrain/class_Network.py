@@ -7,7 +7,7 @@ from transformers import AutoModelForCausalLM, CLIPVisionModel, AutoTokenizer
 from class_Projection import PatchReducerWithProjections
 
 clip_model_name = "openai/clip-vit-base-patch32"
-phi_model_name = "microsoft/phi-2"
+phi_model_name = "OPI-PG/Qra-1b"
 
 
 class CLIPPhi2Model(LightningModule):

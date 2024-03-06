@@ -78,10 +78,6 @@ class PatchReducerWithProjections(nn.Module):
         )
 
     def forward(self, x):
-
-        # x = x.permute(0, 2, 1)
-        # x = self.patch_reducer(x)
-        # x = x.permute(0, 2, 1)
         x = self.moe(x)
         for layer in self.projection_layers:
             residual = x

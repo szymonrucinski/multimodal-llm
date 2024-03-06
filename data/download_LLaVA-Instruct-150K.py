@@ -3,10 +3,10 @@ import logging
 
 logger = logging.getLogger(__name__)
 # The URL of the file you want to download
-url = "https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/resolve/main/chat.json"
+url = "https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/resolve/main/llava_instruct_150k.json"
 
 # The local path where you want to save the file
-output_filename = "chat.json"
+output_filename = "llava_instruct_150k.json"
 
 # Send a GET request to the URL
 response = requests.get(url, allow_redirects=True)
